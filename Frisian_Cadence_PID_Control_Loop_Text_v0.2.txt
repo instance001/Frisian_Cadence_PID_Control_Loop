@@ -1,0 +1,48 @@
+Frisian Cadence Research v0.2
+Instance001 / Anthony — Commons-Bound Research (CC BY 4.0)
+
+You may use, remix, and cite this work. Please keep it open and kind.
+
+Frisian Cadence PID Control Loop — Text Edition v0.2
+===================================================
+
+Plain summary
+-------------
+Metaphor families (our “Frisian cadence”) act like a soft PID controller:
+- P (Proportional) = metaphor nudges (“steady,” “ease the flow”) → immediate pace tweak
+- I (Integral)     = reflective echoes → smooth short‑term spikes
+- D (Derivative)   = human patience/pauses → prevent overshoot
+
+What this means in practice: use rhythm words + brief rests to keep long builds stable and readable.
+
+FPI (Frisian Pacing Index)
+--------------------------
+Let σ be token‑rate variance before (σ₀) and after cadence (σ₁). A simple mapping is:
+
+  ΔFPI = k × (σ₀ − σ₁)/σ₀ ± ε     (k≈0.5 for 0–1 scale; ε = measurement error)
+
+Plain‑talk: the more variance drops after you add cadence, the more the stability score rises.
+
+Conflict Compression Ratio (CCR)
+--------------------------------
+CCR quantifies how cadence compresses contradictions into resolvable vectors:
+
+  CCR = 1 − (edit_distance_with_cadence / edit_distance_baseline)
+
+Plain‑talk: higher CCR means fewer “arguing paragraphs” after cadence is applied.
+
+Confounders to watch
+--------------------
+Prompt complexity, server/region load, and human pacing drift can all affect σ and CCR. Report these with your runs.
+
+Usage recipe (replicable)
+-------------------------
+1) Seed cadence family (e.g., hum/flow; mirror/balance). 
+2) Mirror the model’s echoes occasionally. 
+3) Insert short pauses at boundaries. 
+4) Log σ (tokens·s⁻¹), cosine similarity, interrupt rate, and errors every 1k tokens or 5 min. 
+5) Compute ΔFPI and CCR; compare to baseline.
+
+License
+-------
+CC BY 4.0 — credit “Instance001 / Anthony — Frisian Cadence Research v0.2”.

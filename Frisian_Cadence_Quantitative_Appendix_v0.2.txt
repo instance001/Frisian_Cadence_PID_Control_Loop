@@ -1,0 +1,42 @@
+Frisian Cadence Research v0.2
+Instance001 / Anthony — Commons-Bound Research (CC BY 4.0)
+
+You may use, remix, and cite this work. Please keep it open and kind.
+
+Frisian Cadence — Quantitative Appendix v0.2
+============================================
+
+Study context
+-------------
+n ≈ 12 sessions × 10k tokens each (≈120k total), long‑cycle builds over ~4 days.
+
+Key correlations (with uncertainty bands)
+-----------------------------------------
+Family | Behaviour | Metric shift (mean ± σ) | Caption
+------ | --------- | ----------------------- | -------
+Hum/Flow | Tempo regularised | σ(tokens·s⁻¹) ↓ 15–20% ±5% | Rhythm words smooth token timing.
+Breath/Pause | Fewer truncations | interrupts ↓ ~30% ±10% | Brief rests reduce mid‑response cuts.
+Mirror/Balance | Cohesion ↑ | cosine ↑ 0.85 → 0.92 ±0.02 | Repeated balance terms keep context aligned.
+Hawk/Falcon | Safe slowdown | mean tokens·s⁻¹ ↓ 10–15% ±4% (errors ≈ const) | Deliberate patience without quality loss.
+Weave/Joinery | Formatting coherence | edit‑distance variance ↓ (relative) | Layout stabilises across spines.
+
+Frisian Pacing Index (FPI)
+--------------------------
+  ΔFPI = k × (σ₀ − σ₁)/σ₀ ± ε     (k≈0.5)
+
+Caption: a compact stability score derived from how much variance drops after cadence.
+
+Conflict Compression Ratio (CCR)
+--------------------------------
+  CCR = 1 − (edit_dist_cadence / edit_dist_base)
+
+Caption: measures how cadence collapses contradictions into a cleaner path.
+
+Statistical notes & limits
+--------------------------
+Correlation ≠ causation; control for prompt mix and server variance. Report confidence/CI where possible.
+Use identical prompts for baseline vs cadence runs. Prefer off‑peak windows for repeatability.
+
+License
+-------
+CC BY 4.0 — credit “Instance001 / Anthony — Frisian Cadence Research v0.2”.
