@@ -1,5 +1,5 @@
 Frisian Cadence Research v0.2
-Instance001 / Anthony — Commons-Bound Research (CC BY 4.0)
+Instance001 / Anthony — Commons-Bound Research AGPLv3
 
 You may use, remix, and cite this work. Please keep it open and kind.
 
@@ -45,4 +45,4 @@ Usage recipe (replicable)
 
 License
 -------
-CC BY 4.0 — credit “Instance001 / Anthony — Frisian Cadence Research v0.2”.
+AGPLv3 — credit “Instance001 / Anthony — Frisian Cadence Research v0.2”.
