@@ -18,6 +18,10 @@ How to read
 Start with Context & Application for the big picture, then the PID Text for the method,
 and finish with the Appendix for numbers and metrics.
 
+Terminology boundary
+--------------------
+Frisian Cadence is a metaphor-guided prompting and pacing method, not a literal PID controller, clinical intervention, autonomous agent system, or guaranteed safety mechanism. Terms such as cadence, regulation, resonance, phase lock, and synchroniser describe observable workflow rhythm and generation pacing.
+
 How to cite
 -----------
 Instance001 / Anthony (2025). Frisian Cadence Research v0.2. 

@@ -11,7 +11,9 @@ Plain summary
 Metaphor families (our “Frisian cadence”) act like a soft PID controller:
 - P (Proportional) = metaphor nudges (“steady,” “ease the flow”) → immediate pace tweak
 - I (Integral)     = reflective echoes → smooth short‑term spikes
-- D (Derivative)   = human patience/pauses → prevent overshoot
+- D (Derivative)   = human patience/pauses → reduce overshoot
+
+Boundary note: this is a soft analogy to PID control for prompt rhythm and logging. It is not an implemented feedback controller, clinical regulation method, or safety guarantee.
 
 What this means in practice: use rhythm words + brief rests to keep long builds stable and readable.
 
@@ -25,11 +27,11 @@ Plain‑talk: the more variance drops after you add cadence, the more the stabil
 
 Conflict Compression Ratio (CCR)
 --------------------------------
-CCR quantifies how cadence compresses contradictions into resolvable vectors:
+CCR estimates how cadence may compress contradictions into more resolvable vectors:
 
   CCR = 1 − (edit_distance_with_cadence / edit_distance_baseline)
 
-Plain‑talk: higher CCR means fewer “arguing paragraphs” after cadence is applied.
+Plain‑talk: higher CCR suggests fewer “arguing paragraphs” after cadence is applied, subject to baseline quality.
 
 Confounders to watch
 --------------------

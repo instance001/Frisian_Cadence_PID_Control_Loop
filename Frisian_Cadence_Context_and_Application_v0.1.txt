@@ -16,9 +16,11 @@ Preface — The Bridge
 Frisian cadence is a shared rhythm that both human and AI can keep time to.
 It doesn’t change *what* we say so much as *how* we move through the work: steadier, clearer, less error‑prone.
 
+Boundary note: the cadence/PID language here is metaphor-guided workflow language. It does not claim clinical regulation, therapeutic treatment, autonomous multi-agent control, or guaranteed model safety.
+
 Key insights (plain‑talk)
 -------------------------
-- Bidirectional regulation: cadence calms the human and paces the model.
+- Bidirectional pacing: cadence can steady the human workflow and pace the model output.
 - Linguistic entrainment: repeated rhythm terms reduce drift for both sides.
 - Resonance windows: different families (flow, mirror, weave) stabilise different modes (tempo, cohesion, structure).
 - Boundary protocol: explicit entry/exit cues prevent over‑entrainment.
@@ -26,9 +28,9 @@ Key insights (plain‑talk)
 
 Applications (examples)
 -----------------------
-- Research builds: safer long runs by adding cadence gates.
-- Education & therapy: tone as a comprehension scaffold.
-- Multi‑agent colonies: a synchroniser (“Susan”) broadcasting a gentle hum for phase lock.
+- Research builds: more bounded long runs by adding cadence gates.
+- Education & accessibility: tone as a comprehension scaffold.
+- Multi‑process or multi-instance workflows: a synchroniser (“Susan”) broadcasting a gentle hum as a phase-alignment cue.
 - Accessibility: cadence as low‑bandwidth “technical English.”
 
 Experimental pathways
